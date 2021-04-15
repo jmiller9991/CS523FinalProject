@@ -3,62 +3,62 @@
 # Project Code: Python's Built in Multiprogramming Library Exponential Function
 
 import multiprocessing as mp
+from multiprocessing import Pool
 import cProfile
-import math
+from functools import partial
 
 def getNumExpon(exponent):
     exponentArray = []
 
     if exponent % 2 == 0:
-        for _ in range(1, exponent+1):
+        for _ in range(0, exponent//2):
             exponentArray.append(2)
     else:
-        for _ in range(1, exponent+1):
+        for _ in range(0, exponent//2):
             exponentArray.append(2)
 
         exponentArray.append(1)
 
     return exponentArray
 
-def exponent(base, expon, ret_val):
+def exponent(base, expon):
     if expon == 1:
         pass
     else:
         for _ in range(expon-1):
             base *= base
 
-    ret_val.value = base
+    return base
+    #ret_val[expon] = base
 
-def mult_exponent_work(base, expon, vals):
+
+def mult_exponent(base, expon):
+    answer = 1
     processes = []
-    if vals is None:
-        vals = []
+    vals = []
 
     exponNum = getNumExpon(expon)
 
     if expon == 1:
         return base
     else:
-        for i in range(len(exponNum)):
-            ret_val = mp.Value('I', 0, lock=False)
-            p = mp.Process(target=exponent, args=[base, exponNum[i], ret_val])
+        p = Pool(processes=expon//2 if expon % 2 == 0 else (expon//2)+1)
+        args = partial(exponent, base)
+        data = p.map(args, exponNum)
+        p.close()
 
-            p.start()
-            vals.append(ret_val.value)
+        vals.extend(data)
 
-        for p in processes:
-            p.join()
+    for i in vals:
+         answer *= i
 
-def mult_exponent(base, expon):
-    return mult_exponent_work(base, expon, None)
+    return answer
 
 
 def doWork():
-    print('works')
+    print(mult_exponent(8, 5))
 
 def main():
-    print(exponent(8, 5))
-    print(mult_exponent(8, 5))
     cProfile.run('doWork()')
 
 if __name__ == '__main__':
