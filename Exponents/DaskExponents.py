@@ -1,6 +1,8 @@
 # Jacob Miller
 # 4/12/2021
-# Project Code: Python's Built in Multiprogramming Library Exponential Function
+# Project Code: Dask Exponential Function
+
+import dask as da
 
 import multiprocessing as mp
 from multiprocessing import Pool
@@ -31,9 +33,9 @@ def exponent(base, expon):
     return base
 
 
-
 def mult_exponent(base, expon):
     answer = 1
+    processes = []
     vals = []
 
     exponNum = getNumExpon(expon)
@@ -41,12 +43,9 @@ def mult_exponent(base, expon):
     if expon == 1:
         return base
     else:
-        p = Pool(processes=expon//2 if expon % 2 == 0 else (expon//2)+1)
-        args = partial(exponent, base)
-        data = p.map(args, exponNum)
-        p.close()
+        process = da.delayed()
 
-        vals.extend(data)
+        #vals.extend(data)
 
     for i in vals:
          answer *= i
