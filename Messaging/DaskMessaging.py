@@ -20,8 +20,7 @@ def doWork():
         i.visualize(filename=f'./Results/DaskMessagingResults/DaskMessagingProcess{num}')
         num += 1
 
-    for p in delayed_work:
-        p.compute()
+    da.compute(*delayed_work, scheduler='processes', num_processes=5)
 
 
 def main():
