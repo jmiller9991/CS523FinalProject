@@ -49,7 +49,6 @@ def doWork():
     dataList = splitArray(dataStrings)
 
     processes = []
-    for array in dataList:
 
 
     print(dataList)
