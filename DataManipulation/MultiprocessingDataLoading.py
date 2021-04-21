@@ -7,25 +7,54 @@ import cv2
 import os
 import cProfile
 import math
+import random
 
-num_images = len([name for name in os.listdir('./Data/OldFiles') if os.path.isfile(name)])
+num_images = len([name for name in os.listdir('.\\Data\\OldFiles') if os.path.isfile(os.path.join('.\\Data\\OldFiles', name))])
 num_processes = 5
+fileLocation = '.\\Data\\OldFiles'
+
+def collectImages():
+    dataStrings = []
+
+    for file in os.listdir(fileLocation):
+        print(os.path.join(fileLocation, file))
+        if os.path.isfile(os.path.join(fileLocation, file)):
+            dataStrings.append(os.path.join(fileLocation, file))
+
+    return dataStrings
+
+def splitArray(array):
+    final_array = []
+    for string in array:
+        tempArray = []
+        for _ in range(math.floor(num_images/num_processes)):
+            tempArray.append(string)
+        final_array.append(tempArray)
+
+    return final_array
+
 
 def worker(img):
-    modWidth = math.floor(1920/2.5)
-    modHeight = math.floor(1080/2.5)
-
     image = cv2.imread(img)
-    newimage = cv2.resize(image, (modWidth, modHeight))
-    imagegrey = cv2.cvtColor(newimage, cv2.COLOR_BGR2GRAY)
+    imagegrey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     blurimg = cv2.GaussianBlur(imagegrey, (3, 3), 0)
     logimg = cv2.Laplacian(blurimg, cv2.CV_64F)
-
-    return logimg
+    cv2.imwrite(filename=os.path.join('.\\Data\\OldFiles', f'file{random.randint(0, 1000000000000)}'), img=logimg)
 
 
 def doWork():
-    print('')
+    dataStrings = collectImages()
+    print(dataStrings)
+
+    dataList = splitArray(dataStrings)
+
+    processes = []
+    for array in dataList:
+
+
+    print(dataList)
+
+
 
 def main():
     cProfile.run('doWork()')
