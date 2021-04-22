@@ -17,7 +17,6 @@ def collectImages():
     dataStrings = []
 
     for file in os.listdir(fileLocation):
-        print(os.path.join(fileLocation, file))
         if os.path.isfile(os.path.join(fileLocation, file)):
             dataStrings.append(os.path.join(fileLocation, file))
 
@@ -46,7 +45,7 @@ def worker(imgarr):
         imagegrey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         blurimg = cv2.GaussianBlur(imagegrey, (3, 3), 0)
         logimg = cv2.Laplacian(blurimg, cv2.CV_64F)
-        cv2.imwrite(filename=os.path.join('.\\Data\\OldFiles', f'file{random.randint(0, 1000000000000)}'), img=logimg)
+        cv2.imwrite(filename=os.path.join('.\\Data\\OldFiles', f'file{random.randint(0, 1e999)}'), img=logimg)
 
 
 def doWork():
@@ -57,8 +56,6 @@ def doWork():
 
     processes = []
 
-
-    print(dataList)
 
 
 
