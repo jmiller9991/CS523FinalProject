@@ -25,11 +25,18 @@ def collectImages():
 
 def splitArray(array):
     final_array = []
+    count = 0
+    valueStop = math.floor(num_images/num_processes)
+    tempArray = []
     for string in array:
-        tempArray = []
-        for _ in range(math.floor(num_images/num_processes)):
-            tempArray.append(string)
-        final_array.append(tempArray)
+        tempArray.append(string)
+
+        if count % valueStop == 0:
+            final_array.append(tempArray)
+            for i in tempArray:
+                tempArray.remove(i)
+
+        count += 1
 
     return final_array
 
