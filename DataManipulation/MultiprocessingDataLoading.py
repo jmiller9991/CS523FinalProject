@@ -52,8 +52,6 @@ def worker(imgarr):
 
 def doWork():
     dataStrings = collectImages()
-    print(dataStrings)
-
     dataList = splitArray(dataStrings)
 
     processes = []
