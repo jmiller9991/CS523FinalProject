@@ -3,6 +3,7 @@
 # Project Code: Dask Data Loading Program
 
 import multiprocessing as mp
+import dask as da
 import cv2
 import os
 import cProfile
@@ -47,22 +48,20 @@ def worker(imgarr):
         imagegrey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         blurimg = cv2.GaussianBlur(imagegrey, (3, 3), 0)
         logimg = cv2.Laplacian(blurimg, cv2.CV_64F)
-        cv2.imwrite(filename=os.path.join('.\\Data\\NewDataMP', f'file{value}.png'), img=logimg)
+        cv2.imwrite(filename=os.path.join('.\\Data\\NewDataDask', f'file{value}.png'), img=logimg)
 
 
 def doWork():
     dataStrings = collectImages()
     dataList = splitArray(dataStrings)
 
-    processes = []
+    processes = [da.delayed(worker)(x) for x in dataList]
+    num = 0
+    for i in processes:
+        i.visualize(filename=f'./Results/DaskResults/DaskProcess{num}')
+        num += 1
 
-    for a in dataList:
-        p = mp.Process(target=worker, args=[a])
-        processes.append(p)
-        p.start()
-
-    for p in processes:
-        p.join()
+    results = da.compute(*processes, scheduler='processes', num_workers=num_processes)
 
 
 def main():
