@@ -7,7 +7,6 @@ import cv2
 import os
 import cProfile
 import math
-import random
 
 num_images = len([name for name in os.listdir('.\\Data\\OldFiles') if os.path.isfile(os.path.join('.\\Data\\OldFiles', name))])
 num_processes = 5
