@@ -41,11 +41,13 @@ def splitArray(array):
 
 def worker(imgarr):
     for img in imgarr:
+        value = img.lstrip('.\\Data\\OldFiles\\frame').rstrip('.png')
+
         image = cv2.imread(img)
         imagegrey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         blurimg = cv2.GaussianBlur(imagegrey, (3, 3), 0)
         logimg = cv2.Laplacian(blurimg, cv2.CV_64F)
-        cv2.imwrite(filename=os.path.join('.\\Data\\OldFiles', f'file{random.randint(0, 1e999)}'), img=logimg)
+        cv2.imwrite(filename=os.path.join('.\\Data\\NewDataMP', f'file{value}.png'), img=logimg)
 
 
 def doWork():
@@ -56,7 +58,13 @@ def doWork():
 
     processes = []
 
+    for a in dataList:
+        p = mp.Process(target=worker, args=[a])
+        processes.append(p)
+        p.start()
 
+    for p in processes:
+        p.join()
 
 
 def main():
