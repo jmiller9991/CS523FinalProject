@@ -57,9 +57,9 @@ def doWork():
 
     processes = [da.delayed(worker)(x) for x in dataList]
     num = 0
-    for i in processes:
-        i.visualize(filename=f'./Results/DaskResults/DaskProcess{num}')
-        num += 1
+    # for i in processes:
+    #     i.visualize(filename=f'./Results/DaskResults/DaskProcess{num}')
+    #     num += 1
 
     results = da.compute(*processes, scheduler='processes', num_workers=num_processes)
 

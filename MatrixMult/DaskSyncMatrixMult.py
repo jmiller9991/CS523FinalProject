@@ -24,7 +24,7 @@ def workMethod():
 
     result = dar.dot(matrix1, matrix2)
 
-    result.visualize(filename='./Results/DaskSyncMatrixMultFiles/DaskSyncMatrixMultGraph')
+    # result.visualize(filename='./Results/DaskSyncMatrixMultFiles/DaskSyncMatrixMultGraph')
 
     print('Final Result')
     print(result.compute())

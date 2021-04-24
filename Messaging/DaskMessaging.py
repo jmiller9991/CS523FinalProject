@@ -15,10 +15,10 @@ def doWork():
         p = da.delayed(processMessage)(os.getpid())
         delayed_work.append(p)
 
-    num = 0
-    for i in delayed_work:
-        i.visualize(filename=f'./Results/DaskMessagingResults/DaskMessagingProcess{num}')
-        num += 1
+    # num = 0
+    # for i in delayed_work:
+    #     i.visualize(filename=f'./Results/DaskMessagingResults/DaskMessagingProcess{num}')
+    #     num += 1
 
     da.compute(*delayed_work, scheduler='processes', num_processes=5)
 
