@@ -1,5 +1,5 @@
 C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/CS523FinalProject/DataManipulation/DaskDataLoading.py
-         20915 function calls (19994 primitive calls) in 0.413 seconds
+         71158 function calls (68607 primitive calls) in 2.833 seconds
 
    Ordered by: standard name
 
@@ -7,7 +7,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
     61/33    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
        10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
        10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
-       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:147(__enter__)
        10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
        10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
        10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
@@ -31,8 +31,8 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:792(find_spec)
        30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:855(__enter__)
        30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:859(__exit__)
-       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:882(_find_spec)
-     10/3    0.000    0.000    0.007    0.002 <frozen importlib._bootstrap>:948(_find_and_load_unlocked)
+       10    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:882(_find_spec)
+     10/3    0.000    0.000    0.006    0.002 <frozen importlib._bootstrap>:948(_find_and_load_unlocked)
      10/3    0.000    0.000    0.007    0.002 <frozen importlib._bootstrap>:978(_find_and_load)
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1029(__init__)
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1040(create_module)
@@ -58,18 +58,18 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
       9/3    0.000    0.000    0.006    0.002 <frozen importlib._bootstrap_external>:722(exec_module)
        37    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:74(_path_stat)
         9    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:793(get_code)
-       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_path_is_mode_type)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:84(_path_is_mode_type)
         9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:884(__init__)
         9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:909(get_filename)
         9    0.002    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:914(get_data)
-       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:93(_path_isfile)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:93(_path_isfile)
         9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:951(path_stats)
         1    0.000    0.000    0.000    0.000 <string>:1(<module>)
        59    0.000    0.000    0.000    0.000 <string>:1(__new__)
-        1    0.000    0.000    0.001    0.001 DaskDataLoading.py:17(collectImages)
+        1    0.001    0.001    0.032    0.032 DaskDataLoading.py:17(collectImages)
         1    0.000    0.000    0.000    0.000 DaskDataLoading.py:26(splitArray)
-        1    0.000    0.000    0.413    0.413 DaskDataLoading.py:54(doWork)
-        1    0.000    0.000    0.000    0.000 DaskDataLoading.py:58(<listcomp>)
+        1    0.000    0.000    2.833    2.833 DaskDataLoading.py:54(doWork)
+        1    0.000    0.000    0.003    0.003 DaskDataLoading.py:58(<listcomp>)
         1    0.000    0.000    0.000    0.000 __init__.py:316(namedtuple)
         4    0.000    0.000    0.000    0.000 __init__.py:388(<genexpr>)
        15    0.000    0.000    0.000    0.000 __init__.py:910(__getitem__)
@@ -90,7 +90,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        11    0.000    0.000    0.000    0.000 abc.py:125(__new__)
        24    0.000    0.000    0.000    0.000 abc.py:130(register)
         1    0.000    0.000    0.000    0.000 abc.py:136(Loader)
-       57    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+      872    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
     34/30    0.000    0.000    0.000    0.000 abc.py:141(__subclasscheck__)
         1    0.000    0.000    0.000    0.000 abc.py:183(ResourceLoader)
         7    0.000    0.000    0.000    0.000 abc.py:19(_register)
@@ -104,7 +104,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         8    0.000    0.000    0.000    0.000 abc.py:7(abstractmethod)
         1    0.000    0.000    0.000    0.000 abc.py:87(PathEntryFinder)
         1    0.000    0.000    0.000    0.000 base.py:1116(get_scheduler)
-       55    0.000    0.000    0.000    0.000 base.py:152(is_dask_collection)
+      870    0.000    0.000    0.000    0.000 base.py:152(is_dask_collection)
         5    0.000    0.000    0.000    0.000 base.py:317(optimization_function)
         1    0.000    0.000    0.000    0.000 base.py:321(collections_to_dsk)
         2    0.000    0.000    0.000    0.000 base.py:343(<genexpr>)
@@ -114,7 +114,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         5    0.000    0.000    0.000    0.000 base.py:404(_unpack)
         1    0.000    0.000    0.000    0.000 base.py:442(<listcomp>)
         1    0.000    0.000    0.000    0.000 base.py:444(repack)
-        1    0.000    0.000    0.411    0.411 base.py:506(compute)
+        1    0.000    0.000    2.799    2.799 base.py:506(compute)
         1    0.000    0.000    0.000    0.000 base.py:566(<listcomp>)
         5    0.000    0.000    0.000    0.000 base.py:781(tokenize)
         5    0.000    0.000    0.000    0.000 base.py:837(normalize_object)
@@ -125,7 +125,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        20    0.000    0.000    0.000    0.000 cloudpickle.py:189(_lookup_module_and_qualname)
         5    0.000    0.000    0.000    0.000 cloudpickle.py:229(_extract_code_globals)
         1    0.000    0.000    0.000    0.000 cloudpickle.py:236(<setcomp>)
-        5    0.000    0.000    0.001    0.000 cloudpickle.py:254(_find_imported_submodules)
+        5    0.000    0.000    0.000    0.000 cloudpickle.py:254(_find_imported_submodules)
         9    0.000    0.000    0.000    0.000 cloudpickle.py:420(_walk_global_ops)
         5    0.000    0.000    0.001    0.000 cloudpickle_fast.py:139(_function_getstate)
         5    0.000    0.000    0.000    0.000 cloudpickle_fast.py:158(<dictcomp>)
@@ -133,12 +133,12 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        10    0.000    0.000    0.000    0.000 cloudpickle_fast.py:341(_module_reduce)
         5    0.000    0.000    0.001    0.000 cloudpickle_fast.py:504(_dynamic_function_reduce)
         5    0.000    0.000    0.000    0.000 cloudpickle_fast.py:528(_function_getnewargs)
-        5    0.000    0.000    0.006    0.001 cloudpickle_fast.py:561(dump)
+        5    0.000    0.000    0.008    0.002 cloudpickle_fast.py:561(dump)
         5    0.000    0.000    0.000    0.000 cloudpickle_fast.py:666(__init__)
-        5    0.000    0.000    0.004    0.001 cloudpickle_fast.py:676(_save_reduce_pickle5)
+        5    0.000    0.000    0.003    0.001 cloudpickle_fast.py:676(_save_reduce_pickle5)
        10    0.000    0.000    0.000    0.000 cloudpickle_fast.py:697(save_global)
-     20/5    0.000    0.000    0.005    0.001 cloudpickle_fast.py:733(save_function)
-        5    0.000    0.000    0.006    0.001 cloudpickle_fast.py:90(dumps)
+     20/5    0.000    0.000    0.003    0.001 cloudpickle_fast.py:733(save_function)
+        5    0.000    0.000    0.008    0.002 cloudpickle_fast.py:90(dumps)
        43    0.000    0.000    0.000    0.000 config.py:40(canonical_name)
        29    0.000    0.000    0.000    0.000 config.py:437(get)
         1    0.000    0.000    0.000    0.000 connection.py:10(<module>)
@@ -158,13 +158,13 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 connection.py:755(ConnectionWrapper)
         1    0.000    0.000    0.000    0.000 connection.py:777(XmlListener)
        20    0.000    0.000    0.000    0.000 connection.py:946(reduce_pipe_connection)
-        2    0.000    0.000    0.003    0.001 context.py:109(SimpleQueue)
+        2    0.000    0.000    0.003    0.002 context.py:109(SimpleQueue)
         1    0.000    0.000    0.016    0.016 context.py:114(Pool)
         4    0.000    0.000    0.000    0.000 context.py:186(get_context)
         2    0.000    0.000    0.000    0.000 context.py:196(get_start_method)
         1    0.000    0.000    0.000    0.000 context.py:232(get_context)
         5    0.000    0.000    0.000    0.000 context.py:248(get_start_method)
-        5    0.000    0.000    0.013    0.003 context.py:319(_Popen)
+        5    0.000    0.000    0.012    0.002 context.py:319(_Popen)
        50    0.000    0.000    0.000    0.000 context.py:346(get_spawning_popen)
        10    0.000    0.000    0.000    0.000 context.py:349(set_spawning_popen)
        20    0.000    0.000    0.000    0.000 context.py:352(assert_spawning)
@@ -181,8 +181,8 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 core.py:115(<listcomp>)
        18    0.000    0.000    0.000    0.000 core.py:121(<genexpr>)
         1    0.000    0.000    0.000    0.000 core.py:130(get)
-       32    0.000    0.000    0.000    0.000 core.py:159(keys_in_tasks)
-       32    0.000    0.000    0.000    0.000 core.py:222(get_dependencies)
+       32    0.001    0.000    0.001    0.000 core.py:159(keys_in_tasks)
+       32    0.000    0.000    0.001    0.000 core.py:222(get_dependencies)
        29    0.000    0.000    0.000    0.000 core.py:26(istask)
     64/24    0.000    0.000    0.000    0.000 core.py:276(flatten)
         2    0.000    0.000    0.000    0.000 core.py:305(reverse_dict)
@@ -195,11 +195,11 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 core.py:494(quote)
        16    0.000    0.000    0.000    0.000 core.py:8(ishashable)
      24/8    0.000    0.000    0.000    0.000 core.py:86(_execute_task)
-       40    0.000    0.000    0.000    0.000 dataclasses.py:1036(is_dataclass)
+      855    0.000    0.000    0.000    0.000 dataclasses.py:1036(is_dataclass)
        10    0.000    0.000    0.000    0.000 delayed.py:198(tokenize)
         5    0.000    0.000    0.000    0.000 delayed.py:220(delayed)
-     10/5    0.000    0.000    0.000    0.000 delayed.py:23(unzip)
-    45/10    0.000    0.000    0.000    0.000 delayed.py:42(unpack_collections)
+     10/5    0.000    0.000    0.002    0.000 delayed.py:23(unzip)
+   860/10    0.001    0.000    0.002    0.000 delayed.py:42(unpack_collections)
         1    0.000    0.000    0.000    0.000 delayed.py:464(optimize)
        10    0.000    0.000    0.000    0.000 delayed.py:478(__init__)
        15    0.000    0.000    0.000    0.000 delayed.py:483(key)
@@ -209,11 +209,11 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         5    0.000    0.000    0.000    0.000 delayed.py:505(__dask_tokenize__)
         5    0.000    0.000    0.000    0.000 delayed.py:511(__dask_postcompute__)
        45    0.000    0.000    0.000    0.000 delayed.py:544(__setattr__)
-        5    0.000    0.000    0.000    0.000 delayed.py:595(call_function)
+        5    0.000    0.000    0.002    0.000 delayed.py:595(call_function)
         5    0.000    0.000    0.000    0.000 delayed.py:627(__init__)
-        5    0.000    0.000    0.000    0.000 delayed.py:639(__call__)
+        5    0.000    0.000    0.002    0.000 delayed.py:639(__call__)
         5    0.000    0.000    0.000    0.000 delayed.py:711(single_key)
-       40    0.000    0.000    0.000    0.000 delayed.py:90(<genexpr>)
+      855    0.000    0.000    0.002    0.000 delayed.py:90(<genexpr>)
         1    0.000    0.000    0.000    0.000 dis.py:119(_get_code_object)
         1    0.000    0.000    0.000    0.000 dis.py:251(get_instructions)
         9    0.000    0.000    0.000    0.000 dis.py:273(_get_const_info)
@@ -226,7 +226,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 functools.py:67(wraps)
         1    0.000    0.000    0.000    0.000 functools.py:763(singledispatch)
         2    0.000    0.000    0.000    0.000 functools.py:804(register)
-       35    0.000    0.000    0.001    0.000 genericpath.py:27(isfile)
+      850    0.001    0.000    0.023    0.000 genericpath.py:27(isfile)
         5    0.000    0.000    0.000    0.000 highlevelgraph.py:451(__init__)
         5    0.000    0.000    0.000    0.000 highlevelgraph.py:458(__getitem__)
         5    0.000    0.000    0.000    0.000 highlevelgraph.py:461(__iter__)
@@ -236,7 +236,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         5    0.000    0.000    0.000    0.000 highlevelgraph.py:61(__init__)
         1    0.000    0.000    0.000    0.000 highlevelgraph.py:762(merge)
         1    0.000    0.000    0.000    0.000 inspect.py:478(getmro)
-        5    0.000    0.000    0.388    0.078 local.py:122(queue_get)
+        5    0.000    0.000    2.773    0.555 local.py:122(queue_get)
         1    0.000    0.000    0.000    0.000 local.py:139(start_state_from_dask)
         1    0.000    0.000    0.000    0.000 local.py:173(<dictcomp>)
         1    0.000    0.000    0.000    0.000 local.py:174(<dictcomp>)
@@ -246,16 +246,16 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         5    0.000    0.000    0.000    0.000 local.py:249(finish_task)
      11/1    0.000    0.000    0.000    0.000 local.py:286(nested_get)
       6/1    0.000    0.000    0.000    0.000 local.py:300(<listcomp>)
-        1    0.000    0.000    0.394    0.394 local.py:348(get_async)
-        5    0.000    0.000    0.006    0.001 local.py:444(fire_task)
+        1    0.000    0.000    2.782    2.782 local.py:348(get_async)
+        5    0.000    0.000    0.008    0.002 local.py:444(fire_task)
         5    0.000    0.000    0.000    0.000 local.py:454(<genexpr>)
         1    0.000    0.000    0.000    0.000 multiprocessing.py:127(get_context)
-        1    0.000    0.000    0.411    0.411 multiprocessing.py:141(get)
-      154    0.000    0.000    0.000    0.000 ntpath.py:122(splitdrive)
+        1    0.000    0.000    2.798    2.798 multiprocessing.py:141(get)
+     3414    0.003    0.000    0.004    0.000 ntpath.py:122(splitdrive)
         5    0.000    0.000    0.000    0.000 ntpath.py:34(_get_bothseps)
         5    0.000    0.000    0.000    0.000 ntpath.py:450(normpath)
         5    0.000    0.000    0.000    0.000 ntpath.py:67(isabs)
-       72    0.000    0.000    0.000    0.000 ntpath.py:75(join)
+     1702    0.002    0.000    0.006    0.000 ntpath.py:75(join)
         2    0.000    0.000    0.000    0.000 optimization.py:18(cull)
         1    0.000    0.000    0.000    0.000 optimization.py:428(fuse)
         1    0.000    0.000    0.000    0.000 optimization.py:558(<setcomp>)
@@ -277,25 +277,25 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         5    0.000    0.000    0.000    0.000 pickle.py:189(__init__)
         5    0.000    0.000    0.000    0.000 pickle.py:193(start_framing)
         5    0.000    0.000    0.000    0.000 pickle.py:196(end_framing)
-      610    0.000    0.000    0.000    0.000 pickle.py:201(commit_frame)
-     1140    0.000    0.000    0.000    0.000 pickle.py:225(write)
+     1425    0.000    0.000    0.000    0.000 pickle.py:201(commit_frame)
+     2770    0.000    0.000    0.001    0.000 pickle.py:225(write)
        30    0.000    0.000    0.000    0.000 pickle.py:289(_getattribute)
        15    0.000    0.000    0.000    0.000 pickle.py:302(whichmodule)
         5    0.000    0.000    0.000    0.000 pickle.py:374(__init__)
-        5    0.000    0.000    0.006    0.001 pickle.py:426(dump)
-      445    0.001    0.000    0.001    0.000 pickle.py:441(memoize)
-      445    0.000    0.000    0.000    0.000 pickle.py:464(put)
+        5    0.000    0.000    0.008    0.002 pickle.py:426(dump)
+     1260    0.001    0.000    0.002    0.000 pickle.py:441(memoize)
+     1260    0.000    0.000    0.000    0.000 pickle.py:464(put)
        60    0.000    0.000    0.000    0.000 pickle.py:476(get)
-    605/5    0.001    0.000    0.005    0.001 pickle.py:485(save)
-      605    0.000    0.000    0.000    0.000 pickle.py:551(persistent_id)
-    30/15    0.000    0.000    0.003    0.000 pickle.py:567(save_reduce)
+   1420/5    0.001    0.000    0.007    0.001 pickle.py:485(save)
+     1420    0.000    0.000    0.000    0.000 pickle.py:551(persistent_id)
+    30/15    0.000    0.000    0.002    0.000 pickle.py:567(save_reduce)
        45    0.000    0.000    0.000    0.000 pickle.py:669(save_none)
        45    0.000    0.000    0.000    0.000 pickle.py:680(save_long)
        10    0.000    0.000    0.000    0.000 pickle.py:718(save_bytes)
-      280    0.000    0.000    0.001    0.000 pickle.py:738(save_str)
-     80/5    0.000    0.000    0.005    0.001 pickle.py:761(save_tuple)
-       10    0.000    0.000    0.000    0.000 pickle.py:812(save_list)
-       10    0.000    0.000    0.000    0.000 pickle.py:825(_batch_appends)
+     1095    0.001    0.000    0.003    0.000 pickle.py:738(save_str)
+     80/5    0.000    0.000    0.007    0.001 pickle.py:761(save_tuple)
+       10    0.000    0.000    0.004    0.000 pickle.py:812(save_list)
+       10    0.000    0.000    0.004    0.000 pickle.py:825(_batch_appends)
     30/20    0.000    0.000    0.001    0.000 pickle.py:852(save_dict)
     30/20    0.000    0.000    0.001    0.000 pickle.py:865(_batch_setitems)
        15    0.000    0.000    0.000    0.000 pickle.py:943(save_global)
@@ -304,12 +304,12 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 pkgutil.py:268(ImpLoader)
         5    0.000    0.000    0.000    0.000 pool.py:152(Process)
         1    0.000    0.000    0.016    0.016 pool.py:155(__init__)
-        1    0.000    0.000    0.013    0.013 pool.py:227(_repopulate_pool)
+        1    0.000    0.000    0.012    0.012 pool.py:227(_repopulate_pool)
         1    0.000    0.000    0.003    0.003 pool.py:250(_setup_queues)
         5    0.000    0.000    0.000    0.000 pool.py:356(apply_async)
         1    0.000    0.000    0.000    0.000 pool.py:538(close)
         5    0.000    0.000    0.000    0.000 pool.py:631(__init__)
-        1    0.000    0.000    0.004    0.004 popen_spawn_win32.py:1(<module>)
+        1    0.000    0.000    0.003    0.003 popen_spawn_win32.py:1(<module>)
        10    0.000    0.000    0.000    0.000 popen_spawn_win32.py:113(poll)
         1    0.000    0.000    0.000    0.000 popen_spawn_win32.py:22(_path_eq)
         1    0.000    0.000    0.000    0.000 popen_spawn_win32.py:39(Popen)
@@ -317,7 +317,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        25    0.000    0.000    0.000    0.000 popen_spawn_win32.py:54(<genexpr>)
        10    0.000    0.000    0.000    0.000 popen_spawn_win32.py:93(duplicate_for_child)
        10    0.000    0.000    0.000    0.000 popen_spawn_win32.py:97(wait)
-        5    0.000    0.000    0.013    0.003 process.py:101(start)
+        5    0.000    0.000    0.012    0.002 process.py:101(start)
         5    0.000    0.000    0.000    0.000 process.py:180(name)
         5    0.000    0.000    0.000    0.000 process.py:184(name)
         5    0.000    0.000    0.000    0.000 process.py:196(daemon)
@@ -328,12 +328,12 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         5    0.000    0.000    0.000    0.000 process.py:72(__init__)
        10    0.000    0.000    0.000    0.000 process.py:85(<genexpr>)
         5    0.000    0.000    0.000    0.000 process.py:90(_check_closed)
-        8    0.000    0.000    0.388    0.049 queue.py:153(get)
+       30    0.001    0.000    2.773    0.092 queue.py:153(get)
         1    0.000    0.000    0.000    0.000 queue.py:205(_init)
-       16    0.000    0.000    0.000    0.000 queue.py:208(_qsize)
+       60    0.000    0.000    0.000    0.000 queue.py:208(_qsize)
         5    0.000    0.000    0.000    0.000 queue.py:216(_get)
         1    0.000    0.000    0.000    0.000 queue.py:33(__init__)
-        1    0.000    0.000    0.001    0.001 queues.py:10(<module>)
+        1    0.000    0.000    0.002    0.002 queues.py:10(<module>)
         1    0.000    0.000    0.000    0.000 queues.py:286(JoinableQueue)
         1    0.000    0.000    0.000    0.000 queues.py:328(SimpleQueue)
         2    0.000    0.000    0.001    0.000 queues.py:330(__init__)
@@ -384,16 +384,16 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         3    0.000    0.000    0.000    0.000 threading.py:1131(daemon)
         3    0.000    0.000    0.000    0.000 threading.py:1225(current_thread)
        11    0.000    0.000    0.000    0.000 threading.py:216(__init__)
-       11    0.000    0.000    0.000    0.000 threading.py:240(__enter__)
-       11    0.000    0.000    0.000    0.000 threading.py:243(__exit__)
-       11    0.000    0.000    0.000    0.000 threading.py:249(_release_save)
-       11    0.000    0.000    0.000    0.000 threading.py:252(_acquire_restore)
-       16    0.000    0.000    0.000    0.000 threading.py:255(_is_owned)
-       11    0.000    0.000    0.389    0.035 threading.py:264(wait)
+       33    0.000    0.000    0.000    0.000 threading.py:240(__enter__)
+       33    0.000    0.000    0.000    0.000 threading.py:243(__exit__)
+       33    0.000    0.000    0.000    0.000 threading.py:249(_release_save)
+       33    0.000    0.000    0.000    0.000 threading.py:252(_acquire_restore)
+       38    0.000    0.000    0.000    0.000 threading.py:255(_is_owned)
+       33    0.000    0.000    2.773    0.084 threading.py:264(wait)
         5    0.000    0.000    0.000    0.000 threading.py:335(notify)
         8    0.000    0.000    0.000    0.000 threading.py:499(__init__)
         6    0.000    0.000    0.000    0.000 threading.py:507(is_set)
-        3    0.000    0.000    0.000    0.000 threading.py:534(wait)
+        3    0.000    0.000    0.001    0.000 threading.py:534(wait)
         3    0.000    0.000    0.000    0.000 threading.py:728(_newname)
         3    0.000    0.000    0.000    0.000 threading.py:763(__init__)
         3    0.000    0.000    0.001    0.000 threading.py:834(start)
@@ -418,7 +418,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         2    0.000    0.000    0.000    0.000 weakref.py:476(popitem)
        76    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFE2FA87B30}
        11    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
-       57    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+      872    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
        24    0.000    0.000    0.000    0.000 {built-in method _abc._abc_register}
     34/30    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
         5    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_md5}
@@ -431,9 +431,9 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        50    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
         5    0.000    0.000    0.000    0.000 {built-in method _operator.getitem}
         5    0.000    0.000    0.000    0.000 {built-in method _pickle.loads}
-       35    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISREG}
-      405    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
-       40    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+      850    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISREG}
+     1220    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
+       62    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
        23    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
         3    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
        25    0.000    0.000    0.000    0.000 {built-in method _winapi.CloseHandle}
@@ -441,7 +441,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         2    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateFile}
         2    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateNamedPipe}
         5    0.000    0.000    0.000    0.000 {built-in method _winapi.CreatePipe}
-        5    0.007    0.001    0.007    0.001 {built-in method _winapi.CreateProcess}
+        5    0.006    0.001    0.006    0.001 {built-in method _winapi.CreateProcess}
        30    0.000    0.000    0.000    0.000 {built-in method _winapi.DuplicateHandle}
        30    0.000    0.000    0.000    0.000 {built-in method _winapi.GetCurrentProcess}
        20    0.000    0.000    0.000    0.000 {built-in method _winapi.OpenProcess}
@@ -451,15 +451,15 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
     18/17    0.000    0.000    0.004    0.000 {built-in method builtins.__import__}
        27    0.000    0.000    0.000    0.000 {built-in method builtins.any}
        76    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
-     11/1    0.000    0.000    0.413    0.413 {built-in method builtins.exec}
+     11/1    0.000    0.000    2.833    2.833 {built-in method builtins.exec}
       372    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
-      195    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     1010    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
        16    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
-     1605    0.000    0.000    0.000    0.000 {built-in method builtins.id}
-      694    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+     4050    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+     8029    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
        10    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
        45    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
-     1197    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+     6131    0.000    0.000    0.000    0.000 {built-in method builtins.len}
        10    0.000    0.000    0.000    0.000 {built-in method builtins.max}
         1    0.000    0.000    0.000    0.000 {built-in method builtins.min}
        24    0.000    0.000    0.000    0.000 {built-in method builtins.next}
@@ -472,26 +472,26 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 {built-in method math.floor}
         3    0.000    0.000    0.000    0.000 {built-in method math.log}
         5    0.000    0.000    0.000    0.000 {built-in method msvcrt.open_osfhandle}
-      264    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+     5154    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
         5    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
        47    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
-        1    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+        1    0.002    0.002    0.002    0.002 {built-in method nt.listdir}
         2    0.000    0.000    0.000    0.000 {built-in method nt.lstat}
         1    0.000    0.000    0.000    0.000 {built-in method nt.putenv}
-       72    0.002    0.000    0.002    0.000 {built-in method nt.stat}
+      887    0.023    0.000    0.023    0.000 {built-in method nt.stat}
        12    0.000    0.000    0.000    0.000 {built-in method nt.urandom}
         1    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
         1    0.000    0.000    0.000    0.000 {built-in method sys.intern}
-       19    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
-        2    0.000    0.000    0.000    0.000 {function Random.seed at 0x0000015F923D5558}
+       85    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        2    0.000    0.000    0.000    0.000 {function Random.seed at 0x0000029D008A5558}
         2    0.000    0.000    0.000    0.000 {method 'GetOverlappedResult' of '_winapi.Overlapped' objects}
         4    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
-       11    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
-       11    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
-       50    0.388    0.008    0.388    0.008 {method 'acquire' of '_thread.lock' objects}
+       33    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+       33    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      138    2.772    0.020    2.772    0.020 {method 'acquire' of '_thread.lock' objects}
        41    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
-       11    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
-      131    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       33    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+     1761    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
        32    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
        18    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
         5    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
@@ -500,12 +500,12 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 {method 'difference' of 'set' objects}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
        10    0.000    0.000    0.001    0.000 {method 'dump' of '_pickle.Pickler' objects}
-      285    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+     1100    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
        13    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
        59    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
         4    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
         3    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
-     1275    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+     2905    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
         2    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
         5    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_io.BytesIO' objects}
        57    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
@@ -524,10 +524,10 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         5    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
         5    0.000    0.000    0.000    0.000 {method 'put' of '_queue.SimpleQueue' objects}
         9    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
-       12    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
-        3    0.000    0.000    0.000    0.000 {method 'remove' of 'collections.deque' objects}
+       34    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+       25    0.000    0.000    0.000    0.000 {method 'remove' of 'collections.deque' objects}
        12    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
-      186    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+     3446    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
       130    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
        18    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
       192    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
@@ -535,11 +535,11 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         2    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
        65    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
      1908    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
-      615    0.000    0.000    0.000    0.000 {method 'tell' of '_io.BytesIO' objects}
+     1430    0.000    0.000    0.000    0.000 {method 'tell' of '_io.BytesIO' objects}
        33    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
         2    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
         7    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
-     1150    0.000    0.000    0.000    0.000 {method 'write' of '_io.BytesIO' objects}
+     2780    0.000    0.000    0.000    0.000 {method 'write' of '_io.BytesIO' objects}
 
 
 
