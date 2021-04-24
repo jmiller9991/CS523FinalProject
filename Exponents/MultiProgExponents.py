@@ -55,7 +55,7 @@ def mult_exponent(base, expon):
 
 
 def doWork():
-    print(mult_exponent(8, 5))
+    print(mult_exponent(256, 256))
 
 def main():
     cProfile.run('doWork()')
