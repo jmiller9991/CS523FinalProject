@@ -44,10 +44,10 @@ def mult_exponent(base, expon):
         return base
     else:
         vals = [da.delayed(exponent)(base, x) for x in exponNum]
-        num = 0
-        for i in vals:
-            i.visualize(filename=f'./Results/DaskExponentsResults/DaskExponentsProcess{num}')
-            num += 1
+        # num = 0
+        # for i in vals:
+        #   i.visualize(filename=f'./Results/DaskExponentsResults/DaskExponentsProcess{num}')
+        #   num += 1
         results = da.compute(*vals, scheduler='processes', num_workers=expon//2 if expon % 2 == 0 else (expon//2)+1)
 
     for i in results:
