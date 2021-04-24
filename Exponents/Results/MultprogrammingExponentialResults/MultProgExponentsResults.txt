@@ -1,18 +1,18 @@
 C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/CS523FinalProject/Exponents/MultiProgExponents.py
 32317006071311007300714876688669951960444102669715484032130345427524655138867890893197201411522913463688717960921898019494119559150490921095088152386448283120630877367300996091750197750389652106796057638384067568276792218642619756161838094338476170470581645852036305042887575891541065808607552399123930385521914333389668342420684974786564569494856176035326322058077805659331026192708460314150258592864177116725943603718461857357598351152301645904403697613233287231227125684710820209725157101726931323469678542580656697935045997268352998638215525166389437335543602135433229604645318478604952148193555853611059596230656
-         70422 function calls (70135 primitive calls) in 0.551 seconds
+         70422 function calls (70135 primitive calls) in 0.646 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  472/407    0.000    0.000    0.023    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+  472/407    0.000    0.000    0.024    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
-     57/4    0.000    0.000    0.024    0.006 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+     57/4    0.000    0.000    0.025    0.006 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
       607    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
         7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(_requires_builtin_wrapper)
        40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(__init__)
@@ -28,7 +28,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        40    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:504(_init_module_attrs)
        40    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap>:576(module_from_spec)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
-     40/4    0.000    0.000    0.025    0.006 <frozen importlib._bootstrap>:663(_load_unlocked)
+     40/4    0.000    0.000    0.027    0.007 <frozen importlib._bootstrap>:663(_load_unlocked)
        42    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:719(find_spec)
         7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:740(create_module)
         7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:748(exec_module)
@@ -38,16 +38,16 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
       112    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:855(__enter__)
       112    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:859(__exit__)
        42    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap>:882(_find_spec)
-     42/4    0.000    0.000    0.026    0.006 <frozen importlib._bootstrap>:948(_find_and_load_unlocked)
-     42/4    0.000    0.000    0.026    0.006 <frozen importlib._bootstrap>:978(_find_and_load)
+     42/4    0.000    0.000    0.028    0.007 <frozen importlib._bootstrap>:948(_find_and_load_unlocked)
+     42/4    0.000    0.000    0.028    0.007 <frozen importlib._bootstrap>:978(_find_and_load)
         5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1029(__init__)
-        5    0.000    0.000    0.004    0.001 <frozen importlib._bootstrap_external>:1040(create_module)
+        5    0.000    0.000    0.005    0.001 <frozen importlib._bootstrap_external>:1040(create_module)
         5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1048(exec_module)
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1190(_path_hooks)
       142    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1203(_path_importer_cache)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1225(_legacy_get_spec)
-       35    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:1240(_get_spec)
-       35    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:1272(find_spec)
+       35    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:1240(_get_spec)
+       35    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:1272(find_spec)
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1319(__init__)
         8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1325(<genexpr>)
        33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1351(_get_spec)
@@ -68,7 +68,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
       561    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:58(<listcomp>)
        56    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:62(_path_split)
        28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:719(create_module)
-     28/4    0.000    0.000    0.025    0.006 <frozen importlib._bootstrap_external>:722(exec_module)
+     28/4    0.000    0.000    0.027    0.007 <frozen importlib._bootstrap_external>:722(exec_module)
       179    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:74(_path_stat)
        28    0.000    0.000    0.011    0.000 <frozen importlib._bootstrap_external>:793(get_code)
        36    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:84(_path_is_mode_type)
@@ -80,8 +80,8 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:98(_path_isdir)
         1    0.000    0.000    0.000    0.000 <string>:1(<module>)
         1    0.000    0.000    0.000    0.000 MultiProgExponents.py:10(getNumExpon)
-        1    0.000    0.000    0.551    0.551 MultiProgExponents.py:35(mult_exponent)
-        1    0.000    0.000    0.551    0.551 MultiProgExponents.py:57(doWork)
+        1    0.000    0.000    0.646    0.646 MultiProgExponents.py:35(mult_exponent)
+        1    0.000    0.000    0.646    0.646 MultiProgExponents.py:57(doWork)
         1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)
         2    0.000    0.000    0.000    0.000 __init__.py:316(namedtuple)
         8    0.000    0.000    0.000    0.000 __init__.py:388(<genexpr>)
@@ -126,14 +126,14 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 connection.py:755(ConnectionWrapper)
         1    0.000    0.000    0.000    0.000 connection.py:777(XmlListener)
       512    0.002    0.000    0.010    0.000 connection.py:946(reduce_pipe_connection)
-        2    0.000    0.000    0.016    0.008 context.py:109(SimpleQueue)
-        1    0.000    0.000    0.536    0.536 context.py:114(Pool)
+        2    0.000    0.000    0.017    0.008 context.py:109(SimpleQueue)
+        1    0.000    0.000    0.628    0.628 context.py:114(Pool)
         4    0.000    0.000    0.000    0.000 context.py:186(get_context)
         2    0.000    0.000    0.000    0.000 context.py:196(get_start_method)
         1    0.000    0.000    0.000    0.000 context.py:232(get_context)
       128    0.000    0.000    0.000    0.000 context.py:248(get_start_method)
-      128    0.001    0.000    0.472    0.004 context.py:319(_Popen)
-     1280    0.001    0.000    0.001    0.000 context.py:346(get_spawning_popen)
+      128    0.001    0.000    0.559    0.004 context.py:319(_Popen)
+     1280    0.000    0.000    0.001    0.000 context.py:346(get_spawning_popen)
       256    0.000    0.000    0.000    0.000 context.py:349(set_spawning_popen)
       512    0.000    0.000    0.001    0.000 context.py:352(assert_spawning)
         2    0.000    0.000    0.001    0.000 context.py:64(Lock)
@@ -176,13 +176,13 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 pkgutil.py:1(<module>)
         1    0.000    0.000    0.000    0.000 pkgutil.py:194(ImpImporter)
         1    0.000    0.000    0.000    0.000 pkgutil.py:268(ImpLoader)
-        1    0.000    0.000    0.004    0.004 pool.py:10(<module>)
+        1    0.000    0.000    0.005    0.005 pool.py:10(<module>)
         1    0.000    0.000    0.000    0.000 pool.py:146(Pool)
       128    0.000    0.000    0.003    0.000 pool.py:152(Process)
-        1    0.000    0.000    0.531    0.531 pool.py:155(__init__)
-        1    0.001    0.001    0.513    0.513 pool.py:227(_repopulate_pool)
-        1    0.000    0.000    0.016    0.016 pool.py:250(_setup_queues)
-        1    0.000    0.000    0.015    0.015 pool.py:263(map)
+        1    0.000    0.000    0.622    0.622 pool.py:155(__init__)
+        1    0.001    0.001    0.602    0.602 pool.py:227(_repopulate_pool)
+        1    0.000    0.000    0.017    0.017 pool.py:250(_setup_queues)
+        1    0.000    0.000    0.019    0.019 pool.py:263(map)
         1    0.000    0.000    0.000    0.000 pool.py:375(_map_async)
         1    0.000    0.000    0.000    0.000 pool.py:53(RemoteTraceback)
         1    0.000    0.000    0.000    0.000 pool.py:538(close)
@@ -190,8 +190,8 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 pool.py:629(ApplyResult)
         1    0.000    0.000    0.000    0.000 pool.py:631(__init__)
         1    0.000    0.000    0.000    0.000 pool.py:639(ready)
-        1    0.000    0.000    0.015    0.015 pool.py:647(wait)
-        1    0.000    0.000    0.015    0.015 pool.py:650(get)
+        1    0.000    0.000    0.018    0.018 pool.py:647(wait)
+        1    0.000    0.000    0.018    0.018 pool.py:650(get)
         1    0.000    0.000    0.000    0.000 pool.py:674(MapResult)
         1    0.000    0.000    0.000    0.000 pool.py:676(__init__)
         1    0.000    0.000    0.000    0.000 pool.py:715(IMapIterator)
@@ -199,22 +199,22 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 pool.py:779(IMapUnorderedIterator)
         1    0.000    0.000    0.000    0.000 pool.py:793(ThreadPool)
         1    0.000    0.000    0.005    0.005 popen_spawn_win32.py:1(<module>)
-     8128    0.003    0.000    0.029    0.000 popen_spawn_win32.py:113(poll)
+     8128    0.003    0.000    0.030    0.000 popen_spawn_win32.py:113(poll)
         1    0.000    0.000    0.000    0.000 popen_spawn_win32.py:22(_path_eq)
         1    0.000    0.000    0.000    0.000 popen_spawn_win32.py:39(Popen)
-      128    0.007    0.000    0.464    0.004 popen_spawn_win32.py:45(__init__)
+      128    0.007    0.000    0.551    0.004 popen_spawn_win32.py:45(__init__)
       640    0.000    0.000    0.000    0.000 popen_spawn_win32.py:54(<genexpr>)
       256    0.000    0.000    0.001    0.000 popen_spawn_win32.py:93(duplicate_for_child)
      8128    0.011    0.000    0.026    0.000 popen_spawn_win32.py:97(wait)
         1    0.000    0.000    0.000    0.000 posixpath.py:11(<module>)
-      128    0.001    0.000    0.509    0.004 process.py:101(start)
+      128    0.001    0.000    0.597    0.005 process.py:101(start)
       128    0.000    0.000    0.000    0.000 process.py:180(name)
       128    0.000    0.000    0.000    0.000 process.py:184(name)
       128    0.000    0.000    0.000    0.000 process.py:196(daemon)
       128    0.000    0.000    0.000    0.000 process.py:204(authkey)
-      256    0.002    0.000    0.003    0.000 process.py:326(__reduce__)
+      256    0.002    0.000    0.004    0.000 process.py:326(__reduce__)
       258    0.000    0.000    0.000    0.000 process.py:36(current_process)
-      128    0.007    0.000    0.036    0.000 process.py:53(_cleanup)
+      128    0.007    0.000    0.037    0.000 process.py:53(_cleanup)
       128    0.001    0.000    0.002    0.000 process.py:72(__init__)
       256    0.000    0.000    0.000    0.000 process.py:85(<genexpr>)
       128    0.000    0.000    0.000    0.000 process.py:90(_check_closed)
@@ -224,15 +224,15 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 queue.py:239(LifoQueue)
         1    0.000    0.000    0.000    0.000 queue.py:255(_PySimpleQueue)
         1    0.000    0.000    0.000    0.000 queue.py:27(Queue)
-        1    0.000    0.000    0.014    0.014 queues.py:10(<module>)
+        1    0.000    0.000    0.015    0.015 queues.py:10(<module>)
         1    0.000    0.000    0.000    0.000 queues.py:286(JoinableQueue)
         1    0.000    0.000    0.000    0.000 queues.py:328(SimpleQueue)
-        2    0.000    0.000    0.001    0.000 queues.py:330(__init__)
+        2    0.000    0.000    0.001    0.001 queues.py:330(__init__)
         1    0.000    0.000    0.000    0.000 queues.py:34(Queue)
       256    0.001    0.000    0.001    0.000 queues.py:342(__getstate__)
        32    0.000    0.000    0.000    0.000 random.py:224(_randbelow)
        32    0.000    0.000    0.000    0.000 random.py:256(choice)
-        1    0.000    0.000    0.004    0.004 random.py:38(<module>)
+        1    0.000    0.000    0.005    0.005 random.py:38(<module>)
         1    0.000    0.000    0.000    0.000 random.py:669(SystemRandom)
         1    0.000    0.000    0.000    0.000 random.py:72(Random)
         3    0.000    0.000    0.000    0.000 random.py:88(__init__)
@@ -240,7 +240,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
       512    0.002    0.000    0.007    0.000 reduction.py:102(__init__)
       256    0.002    0.000    0.003    0.000 reduction.py:38(__init__)
         2    0.000    0.000    0.000    0.000 reduction.py:43(register)
-      256    0.001    0.000    0.034    0.000 reduction.py:58(dump)
+      256    0.001    0.000    0.035    0.000 reduction.py:58(dump)
       256    0.000    0.000    0.001    0.000 reduction.py:71(duplicate)
         1    0.000    0.000    0.000    0.000 runpy.py:160(_Error)
         1    0.000    0.000    0.000    0.000 runpy.py:23(_TempModule)
@@ -304,15 +304,15 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         4    0.000    0.000    0.000    0.000 threading.py:249(_release_save)
         4    0.000    0.000    0.000    0.000 threading.py:252(_acquire_restore)
         4    0.000    0.000    0.000    0.000 threading.py:255(_is_owned)
-        4    0.000    0.000    0.017    0.004 threading.py:264(wait)
+        4    0.000    0.000    0.022    0.005 threading.py:264(wait)
         4    0.000    0.000    0.000    0.000 threading.py:499(__init__)
         7    0.000    0.000    0.000    0.000 threading.py:507(is_set)
-        4    0.000    0.000    0.017    0.004 threading.py:534(wait)
+        4    0.000    0.000    0.022    0.005 threading.py:534(wait)
         3    0.000    0.000    0.000    0.000 threading.py:728(_newname)
         3    0.000    0.000    0.000    0.000 threading.py:763(__init__)
-        3    0.000    0.000    0.002    0.001 threading.py:834(start)
+        3    0.000    0.000    0.003    0.001 threading.py:834(start)
         1    0.000    0.000    0.002    0.002 util.py:1(<module>)
-        1    0.000    0.000    0.002    0.002 util.py:10(<module>)
+        1    0.000    0.000    0.003    0.003 util.py:10(<module>)
         1    0.000    0.000    0.000    0.000 util.py:108(_platform_supports_abstract_sockets)
         1    0.000    0.000    0.000    0.000 util.py:182(Finalize)
       129    0.001    0.000    0.001    0.000 util.py:186(__init__)
@@ -337,7 +337,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         1    0.000    0.000    0.000    0.000 weakref.py:527(_Info)
         1    0.000    0.000    0.000    0.000 weakref.py:6(<module>)
         1    0.000    0.000    0.000    0.000 weakref.py:90(WeakValueDictionary)
-       29    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFE2FA87B30}
+       29    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFE2B607B30}
        29    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
        24    0.000    0.000    0.000    0.000 {built-in method _abc._abc_register}
        24    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
@@ -350,7 +350,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
        28    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
       196    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
         7    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
-        5    0.004    0.001    0.004    0.001 {built-in method _imp.create_dynamic}
+        5    0.005    0.001    0.005    0.001 {built-in method _imp.create_dynamic}
         7    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
         5    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
        32    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
@@ -364,31 +364,31 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
         2    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateFile}
         2    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateNamedPipe}
       128    0.003    0.000    0.003    0.000 {built-in method _winapi.CreatePipe}
-      128    0.404    0.003    0.404    0.003 {built-in method _winapi.CreateProcess}
+      128    0.489    0.004    0.489    0.004 {built-in method _winapi.CreateProcess}
       768    0.002    0.000    0.002    0.000 {built-in method _winapi.DuplicateHandle}
       768    0.000    0.000    0.000    0.000 {built-in method _winapi.GetCurrentProcess}
-      512    0.002    0.000    0.002    0.000 {built-in method _winapi.OpenProcess}
+      512    0.003    0.000    0.003    0.000 {built-in method _winapi.OpenProcess}
         2    0.000    0.000    0.000    0.000 {built-in method _winapi.SetNamedPipeHandleState}
      8128    0.012    0.000    0.012    0.000 {built-in method _winapi.WaitForSingleObject}
         1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
   102/101    0.001    0.000    0.001    0.000 {built-in method builtins.__build_class__}
-      5/3    0.000    0.000    0.022    0.007 {built-in method builtins.__import__}
+      5/3    0.000    0.000    0.023    0.008 {built-in method builtins.__import__}
        40    0.000    0.000    0.000    0.000 {built-in method builtins.any}
         1    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
-     31/1    0.000    0.000    0.551    0.551 {built-in method builtins.exec}
+     31/1    0.000    0.000    0.646    0.646 {built-in method builtins.exec}
      2974    0.001    0.000    0.001    0.000 {built-in method builtins.getattr}
        14    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
       725    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
       846    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
      1410    0.000    0.000    0.000    0.000 {built-in method builtins.len}
-     8128    0.003    0.000    0.003    0.000 {built-in method builtins.max}
+     8128    0.002    0.000    0.002    0.000 {built-in method builtins.max}
       264    0.000    0.000    0.000    0.000 {built-in method builtins.next}
         1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
         2    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
        25    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
        84    0.000    0.000    0.000    0.000 {built-in method from_bytes}
       128    0.003    0.000    0.003    0.000 {built-in method io.open}
-       28    0.002    0.000    0.002    0.000 {built-in method marshal.loads}
+       28    0.003    0.000    0.003    0.000 {built-in method marshal.loads}
         1    0.000    0.000    0.000    0.000 {built-in method math.exp}
         2    0.000    0.000    0.000    0.000 {built-in method math.log}
         1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
@@ -401,12 +401,12 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
       179    0.005    0.000    0.005    0.000 {built-in method nt.stat}
         2    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
         2    0.000    0.000    0.000    0.000 {built-in method sys.intern}
-        3    0.000    0.000    0.000    0.000 {function Random.seed at 0x000002245EC45C18}
+        3    0.000    0.000    0.000    0.000 {function Random.seed at 0x00000237D7FE5C18}
         2    0.000    0.000    0.000    0.000 {method 'GetOverlappedResult' of '_winapi.Overlapped' objects}
         8    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
         4    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
         4    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
-       17    0.017    0.001    0.017    0.001 {method 'acquire' of '_thread.lock' objects}
+       17    0.021    0.001    0.021    0.001 {method 'acquire' of '_thread.lock' objects}
       273    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
         4    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
       257    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
@@ -414,7 +414,7 @@ C:\Users\jdude\.conda\envs\cs523_code\python.exe C:/Users/jdude/PycharmProjects/
       384    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
       128    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-      256    0.013    0.000    0.030    0.000 {method 'dump' of '_pickle.Pickler' objects}
+      256    0.013    0.000    0.031    0.000 {method 'dump' of '_pickle.Pickler' objects}
        40    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
         7    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
         4    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
